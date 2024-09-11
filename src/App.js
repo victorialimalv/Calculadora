@@ -2,6 +2,7 @@
 
 import Button from './components/Button';
 import Input from './components/Input';
+import backgroundImage from './assets/background.jpg';
 
 import { useState } from 'react';
 import { Container, Content, Row } from './styles';
@@ -101,8 +102,18 @@ const App = () => {
   }
 
   return (
-    <Container>
+    <Container   style={{
+      backgroundImage: `url(${backgroundImage})`, 
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      height: '100vh', 
+      width: '100%' 
+    }}>
+
       <Content> 
+
+       
+
         <Input value={currentNumber}/>
 
         <Row>

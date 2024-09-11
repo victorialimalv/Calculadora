@@ -4,9 +4,6 @@ import styled from 'styled-components';
 export const Container = styled.div`
         width: 100%;
         height: 100vh;
-        background-image: url('/background.jpg');
-        background-size: cover;
-        background-position: center;
 
         display: flex;
         align-items: center;
@@ -28,4 +25,9 @@ export const Row = styled.div`
         display: flex;
         flex-direct: column;
         justify-content: space-between;
-        align-items: center; */ 
+        align-items: center; 
+        
+         background-image: url('/background.jpg');
+        background-size: cover;
+        background-position: center;
+        */ 
